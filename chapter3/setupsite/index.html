@@ -5,6 +5,12 @@
 a{
     color:blue;
 }
+
+img{
+    width: 40%;
+    margin: 40px;
+    display: block;
+}
 </style>
 
 <h1>Steps for Setting Up Web Hosting</h1>
@@ -20,7 +26,7 @@ Go to <a href="https://www.nearlyfreespeech.net/">NearlyFreeSpeech.net</a> and s
 </p>
 
 <h2>Step 2: Buy the domain</h2>
-Pick the name of your website. I bought the domain setupyourwebhosting.com on <a href="https://www.nearlyfreespeech.net/">NearlyFreeSpeech.net</a> for $10 per year. This is a real website with these instructions. You can buy the domain under the domains tab, and then click “Register a New Domain.” When prompted about DNS, choose, “Set up DNS and Name Servers Automatically.”
+Pick the name of your website. I bought the domain <a href="http://setupyourwebhosting.com">setupyourwebhosting.com</a> on <a href="https://www.nearlyfreespeech.net/">NearlyFreeSpeech.net</a> for $10 per year. This is a real website with these instructions. You can buy the domain under the domains tab, and then click “Register a New Domain.” When prompted about DNS, choose, “Set up DNS and Name Servers Automatically.”
 <h2>Step 3: Download an FTP program</h2>
 The FTP program will allow you to upload files onto your site. FTP stands for File Transfer Protocol. Download <a href="https://cyberduck.io/download/">Cyberduck</a> and install it.
 <h2>Step 4: Set up a text editor</h2>
@@ -32,14 +38,22 @@ We’re going to create the file that will show up on your website. Open Submlim
 </pre>
 Then save that file on your Desktop as index.html. Now I go double click that file and it will open in my Google Chrome web browser and it should look like this:
 
+<img src="firstsite.png">
+
 <h2>Step 6: Upload your HTML file to your site with FTP</h2>
 Now, go to nearlyfreespeech.net, and open the sites tab. Click into the site you created. There should be a section that shows your SSH/SFTP information.
 Now, open Cyberduck. Click “+” to create a connection.
 
+<img src="cyberduck.png">
+
 Now under Server enter your SSH/SFTP Hostname. Under Username and Password, enter your username from the SSH/SFTP section, and your password for the site. Once you are connected you will be in a folder with nothing in it. Now drag your index.html file from your Desktop into this folder in Cyberduck.
 When it’s uploaded it will look like this:
 
+<img src="indexupload.png">
+
+
 <h2>Step 7: Connect your domain to your site</h2>
-Now, click in to your site under the “sites” tab. Under “Site Names & Aliases” click “Add a New Alias.” Now enter in the name you just bought. I type in www.setupyourwebhosting.com.
+Now, click in to your site under the “sites” tab. Under “Site Names & Aliases” click “Add a New Alias.” Now enter in the name you just bought. I type in <a href="http://www.setupyourwebhosting.com">www.setupyourwebhosting.com.</a> Then I also go and add <a href="http://setupyourwebhosting.com">setupyourwebhosting.com</a> as another alias.
+
 <h2>Step 8: Visit your site!</h2>
 It should work! Visit your website now and you should see your site load with the text you typed in index.html. When you want to update the content, change the index.html file on your computer, save it, and drag the new version into Cyberduck.
