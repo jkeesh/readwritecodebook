@@ -1,109 +1,208 @@
-<h3><a href="/">&lt; Back home</a></h3>
+<!doctype html>
+<html lang="en">
 
-<h1>Chapter 2: It's all Zeros and Ones
-</h1>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJRSCT0YGB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<style>
-a{
-    color: black;
-    margin: 10px;
-    display: block;
-}
-</style>
-
-
-<div>
-    <a target="_blank" href="http://www.color-hex.com/color/f2a84b">
-        Exploring Hexadecimal colors
-    </a>
-</div>
-
-<div>
-    <a target="_blank" href="https://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024&unicodeinhtml=hex">
-        Explore UTF-8 Character Map
-    </a>
-</div>
-
-<div>
-    <a target="_blank" href="http://unicode.scarfboy.com/">
-        Exploring Unicode characters by code point
-    </a>
-</div>
+    gtag('config', 'G-ZJRSCT0YGB');
+  </script>
 
 
-<div>
-    <a target="_blank" href="http://unicode.scarfboy.com/?s=1F600">
-        Smiley Face Grinning Emoji
-    </a>
-</div>
+ <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Animate Css -->
+  <link rel="stylesheet" href="../plugins/animate-css/animate.css">
+  <!--  icon Css -->
+  <link rel="stylesheet" href="../plugins/fontawesome/css/all.css">
+  <link rel="stylesheet" href="../plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="../plugins/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="../plugins/slick-carousel/slick/slick.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="../plugins/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="../plugins/owl-carousel/owl.theme.default.min.css">
 
-<div>
-    <a target="_blank" href="http://www.fileformat.info/info/unicode/char/1f600/index.htm">
-        Smiley Face Grinning Emoji - various encodings
-    </a>
-</div>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
 
-
-
-<h2>Source Links</h2>
-
-<a target="_blank" href="https://stackoverflow.com/questions/643694/what-is-the-difference-between-utf-8-and-unicode">UTF-8 vs. Unicode</a>
-
-<a target="_blank" href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>
-<a target="_blank" href="https://en.wikipedia.org/wiki/UTF-16">UTF-16</a>
-
-<a href="https://en.wikipedia.org/wiki/Year_2000_problem
-">Year 2000 Problem</a>
-<a href="https://time.com/3645828/y2k-look-back/
-">Y2k - Time</a>
-<a href="https://www.washingtonpost.com/wp-srv/WPcap/1999-11/18/077r-111899-idx.html
-">Y2K Repair bill</a>
-<a href="http://content.time.com/time/covers/0,16641,19990118,00.html
-">Time covers</a>
-<a href="https://time.com/5752129/y2k-bug-history/
-">Time - Y2K Bug</a>
-<a href="https://www.nytimes.com/1999/01/24/us/the-millennium-glitch-and-life-and-death.html
-">Millenium Glitch</a>
-<a href="https://timesmachine.nytimes.com/timesmachine/1999/01/24/997480.html?pageNumber=14
-">New York Times - Y2K</a>
-<a href="https://en.wikipedia.org/wiki/Byte
-">Byte</a>
-<a href="https://en.wikipedia.org/wiki/Unicode
-">Unicode</a>
-<a href="https://en.wikipedia.org/wiki/UTF-8
-">UTF-8</a>
-<a href="https://en.wikipedia.org/wiki/Code_point
-">Code point</a>
-<a href="https://medium.com/better-programming/why-is-0-1-0-2-not-equal-to-0-3-in-most-programming-languages-99432310d476
-">0.1 + 0.2</a>
-<a href="https://en.wikipedia.org/wiki/Truth_table#Unary_operations
-">Truth table</a>
-<a href="https://www.explainthatstuff.com/howtransistorswork.html
-">Transistors</a>
-<a href="https://en.wikipedia.org/wiki/Input/output
-">Input/output</a>
-<a href="https://www.apple.com/macbook-air/specs/
-">Macbook air specs</a>
-<a href="https://en.wikipedia.org/wiki/Computer#Memory
-">Computer memory</a>
-<a href="https://en.wikipedia.org/wiki/Instructions_per_second
-">Instructions per second</a>
-<a href="https://en.wikipedia.org/wiki/Central_processing_unit
-">CPU</a>
-<a href="https://en.wikipedia.org/wiki/Year_2038_problem
-">Year 2038 Problem</a>
+</head>
 
 
+<body id="top-header">
+<!-- Navigation Menu -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJRSCT0YGB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- NAVBAR
+    ================================================= -->
+    <div class="main-navigation fixed-top site-header" id="mainmenu-area">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container align-items-center">
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-menu-alt"></span>
+                </button>
 
-  gtag('config', 'G-ZJRSCT0YGB');
-</script>
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
+                    <!-- Links -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a href="/index_new.html" class="nav-link smoth-scroll">
+                                Home
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!-- Banner -->
+<section class="banner-2 bg-grey py-7" id="banner-2">
+    <div class="container">
+        <div class="row">
+            <h1>Chapter 2: It's all Zeros and Ones</h1>
+        </div>
+
+        <div class="row mt-3 d-block">
+            <div>
+                <a target="_blank" href="http://www.color-hex.com/color/f2a84b">
+                    Exploring Hexadecimal colors
+                </a>
+            </div>
+
+            <div>
+                <a target="_blank" href="https://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024&unicodeinhtml=hex">
+                    Explore UTF-8 Character Map
+                </a>
+            </div>
+
+            <div>
+                <a target="_blank" href="http://unicode.scarfboy.com/">
+                    Exploring Unicode characters by code point
+                </a>
+            </div>
+
+
+            <div>
+                <a target="_blank" href="http://unicode.scarfboy.com/?s=1F600">
+                    Smiley Face Grinning Emoji
+                </a>
+            </div>
+
+            <div>
+                <a target="_blank" href="http://www.fileformat.info/info/unicode/char/1f600/index.htm">
+                    Smiley Face Grinning Emoji - various encodings
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row mt-3 d-block">
+            <h2>Source Links</h2>
+
+                <a target="_blank" href="https://stackoverflow.com/questions/643694/what-is-the-difference-between-utf-8-and-unicode">UTF-8 vs. Unicode</a>
+
+                <a target="_blank" href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/UTF-16">UTF-16</a>
+
+                <a href="https://en.wikipedia.org/wiki/Year_2000_problem
+                ">Year 2000 Problem</a>
+                <a href="https://time.com/3645828/y2k-look-back/
+                ">Y2k - Time</a>
+                <a href="https://www.washingtonpost.com/wp-srv/WPcap/1999-11/18/077r-111899-idx.html
+                ">Y2K Repair bill</a>
+                <a href="http://content.time.com/time/covers/0,16641,19990118,00.html
+                ">Time covers</a>
+                <a href="https://time.com/5752129/y2k-bug-history/
+                ">Time - Y2K Bug</a>
+                <a href="https://www.nytimes.com/1999/01/24/us/the-millennium-glitch-and-life-and-death.html
+                ">Millenium Glitch</a>
+                <a href="https://timesmachine.nytimes.com/timesmachine/1999/01/24/997480.html?pageNumber=14
+                ">New York Times - Y2K</a>
+                <a href="https://en.wikipedia.org/wiki/Byte
+                ">Byte</a>
+                <a href="https://en.wikipedia.org/wiki/Unicode
+                ">Unicode</a>
+                <a href="https://en.wikipedia.org/wiki/UTF-8
+                ">UTF-8</a>
+                <a href="https://en.wikipedia.org/wiki/Code_point
+                ">Code point</a>
+                <a href="https://medium.com/better-programming/why-is-0-1-0-2-not-equal-to-0-3-in-most-programming-languages-99432310d476
+                ">0.1 + 0.2</a>
+                <a href="https://en.wikipedia.org/wiki/Truth_table#Unary_operations
+                ">Truth table</a>
+                <a href="https://www.explainthatstuff.com/howtransistorswork.html
+                ">Transistors</a>
+                <a href="https://en.wikipedia.org/wiki/Input/output
+                ">Input/output</a>
+                <a href="https://www.apple.com/macbook-air/specs/
+                ">Macbook air specs</a>
+                <a href="https://en.wikipedia.org/wiki/Computer#Memory
+                ">Computer memory</a>
+                <a href="https://en.wikipedia.org/wiki/Instructions_per_second
+                ">Instructions per second</a>
+                <a href="https://en.wikipedia.org/wiki/Central_processing_unit
+                ">CPU</a>
+                <a href="https://en.wikipedia.org/wiki/Year_2038_problem
+                ">Year 2038 Problem</a>
+
+
+        </div>
+    </div>
+</section>
+
+
+<!--
+Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4.3.1 -->
+<script src="../plugins/bootstrap/js/popper.min.js"></script>
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="../plugins/magnific-popup/jquery.magnific-popup.js"></script>
+<script src="../plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Counter Js -->
+<script src="../plugins/counterup/waypoint.js"></script>
+<script src="../plugins/counterup/jquery.counterup.min.js"></script>
+
+<script src="../js/contact.js"></script>
+<script src="../js/theme.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
