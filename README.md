@@ -1,7 +1,8 @@
 # Read Write Code Book
 
-readwritecodebook.com
+This github repository is the companion site to the book.
 
+readwritecodebook.com
 
 
 ## How to deploy
@@ -14,6 +15,17 @@ To deploy to the web server
 
     git push web master
 
+
+## Running locally
+
+- You can just open the index.html pages in a web browser
+- Since some of the chapter pages fetch other pages from the server using an iframe, you can run it more normally using
+
+    $ python -m http.server 8080
+
+Then visiting
+
+    http://localhost:8080/
 
 
 ## Other notes
