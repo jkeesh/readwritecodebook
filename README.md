@@ -2,7 +2,7 @@
 
 This github repository is the companion site to the book.
 
-readwritecodebook.com
+https://readwritecodebook.com
 
 
 ## How to deploy
@@ -21,7 +21,8 @@ To deploy to the web server
 - You can just open the index.html pages in a web browser
 - Since some of the chapter pages fetch other pages from the server using an iframe, you can run it more normally using
 
-    $ python -m http.server 8080
+
+    python -m http.server 8080
 
 Then visiting
 
@@ -31,7 +32,10 @@ Then visiting
 ## Other notes
 
 - To keep this web page simple, it is just HTML, CSS, JS, no build system
-- To handle template includes just for repeated navigation on chapter pages, I use this html trick: https://www.filamentgroup.com/lab/html-includes/ 
+- To handle template includes just for repeated navigation on chapter pages, I use this html trick: 
+
+https://www.filamentgroup.com/lab/html-includes/ 
+
 https://css-tricks.com/the-simplest-ways-to-handle-html-includes/
 
 
