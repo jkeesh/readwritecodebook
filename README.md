@@ -19,12 +19,13 @@ To deploy to the web server
 ## Running locally
 
 - You can just open the index.html pages in a web browser
-- Since some of the chapter pages fetch other pages from the server using an iframe, you can run it more normally using
+- Since some of the chapter pages fetch other pages you can run a python server
 
+To run the server, in the terminal:
 
     python -m http.server 8080
 
-Then visiting
+Then visit
 
     http://localhost:8080/
 
@@ -32,9 +33,9 @@ Then visiting
 ## Other notes
 
 - To keep this web page simple, it is just HTML, CSS, JS, no build system
-- To handle template includes just for repeated navigation on chapter pages, I use this html trick: 
+- To handle template includes just for repeated navigation on chapter pages, I use this html trick:
 
-https://www.filamentgroup.com/lab/html-includes/ 
+https://www.filamentgroup.com/lab/html-includes/
 
 https://css-tricks.com/the-simplest-ways-to-handle-html-includes/
 
