@@ -16,6 +16,11 @@ To deploy to the web server
     git push web master
 
 
+Script I use to create git repo on server that checks out latest update on push using this workflow
+
+https://gist.github.com/jkeesh/b19058c6c52f35fb88397037f451a27d
+
+
 ## Running locally
 
 - You can just open the index.html pages in a web browser
